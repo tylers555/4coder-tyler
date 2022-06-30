@@ -26,7 +26,8 @@ The build currently is only configured for Windows.
 
 1. Download/clone the repository.
 2. On windows setup the visual studio command line magic sauce so that "cl" works
-3. A. On windows run "bin\build.bat" this will make an unoptimized build
+3. 
+   A. On windows run "bin\build.bat" this will make an unoptimized build
    B. On Windows run "bin\build_optimized.bat" this will make an optimized build
 
 ## Notes on Major Issues (from Allen Webster)
