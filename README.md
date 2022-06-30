@@ -29,7 +29,7 @@ The build currently is only configured for Windows.
 3. A. On windows run "bin\build.bat" this will make an unoptimized build
    B. On Windows run "bin\build_optimized.bat" this will make an optimized build
 
-## Notes on Major Issues
+## Notes on Major Issues (from Allen Webster)
 
 1. The build system and organization of files is extremely complicated. There is a 4ed_build.cpp that defines how builds run, and the build scripts have to build and run this C++ file. The file is pretty chaotic since it cannot rely on the codebase's usual helpers. On top of that there is a totally separate build system for the custom layer which is also a big gigantic mess of its own. It involves several stages of compilation, and a number of metaprograms.
 
@@ -43,7 +43,17 @@ The build currently is only configured for Windows.
 
 6. The codebase has a very weak base layer with key features that were added very late, so lots of code was written in the absence of useful features to bind things together. To make matters worse the base layer is split by the distinction of custom layer & core layer, leading to some double definitions and some incosistencies.
 
-## License
+## Credits (from Allen Webster)
+This codebase was authored by Allen Webster from 2014-2022, with help from a number of contributors:
+
+Casey Muratori
+"insofaras" Alex Baines
+Yuval Dolev
+Ryan Fleury
+
+Also thanks to all those who supported the project, financially and/or through all your detailed feedback.
+
+## License (from Allen Webster)
 
 Copyright (c) 2022 Allen Webster
 
