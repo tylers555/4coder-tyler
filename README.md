@@ -15,6 +15,7 @@ The customization layer is based upon [Ryan Fleury's custom layer](https://githu
     - SJA, my own custom format for defining assets
     - Batch, batch files are now syntax highlighted
 - The lister for searching the code index now has color depending on the code index note. The entire line is now also displayed for each note.
+- The lister now only updates and renders the visible items, this is a significant performance gain for very large code bases.
 - Different modes for listing, based on file type, current file, and only definitions(useful).
 - Text fade in and out for copy/paste/ctrl+delete
 
